@@ -1,0 +1,25 @@
+name: Production AWS S3+Cloudfront Deploy
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+      
+    - name: Authenticate AWS session
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-region: us-east-1
+        role-to-assume: ${{ secrets.ROLE_TO_ASSUME }}
+
+    - name: Deploy static site to S3 bucket
+      run: aws s3 sync ./public/ s3://${{ secrets.BUCKET_NAME }} --delete
+
+    - name: Invalidate Cloudfront cache
+      run: aws create-invalidation --distribution-id "${{ secrets.DISTRIBUTION_ID_TO_INVALIDATE }}"
