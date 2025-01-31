@@ -1,5 +1,5 @@
-
 name: pipeline
+
 on:
   push:
     branches: [ 'main' ]
@@ -20,7 +20,6 @@ jobs:
       - name: 'Dependency Review'
         uses: actions/dependency-review-action@v4
         with:
-          comment-summary-in-pr: always
           fail-on-severity: high
           
       - name: 'Clean install'
