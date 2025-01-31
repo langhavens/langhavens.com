@@ -5,10 +5,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
+import { ModeToggle } from "@/components/theme-toggle";
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <ModeToggle/>
         <h1>Langhavens</h1>
         <div>
           <p>Building trading algorithms as a platform for personal development.</p>
