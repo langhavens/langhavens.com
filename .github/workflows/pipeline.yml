@@ -51,7 +51,7 @@ jobs:
           role-to-assume: ${{ secrets.ROLE_TO_ASSUME }}
   
       - name: 'Deploy static site to S3 bucket'
-        run: aws s3 sync ./out/ s3://${{ secrets.BUCKET_NAME }} --delete
+        run: aws s3 sync ${{ github.workspace }}/out/ s3://${{ secrets.BUCKET_NAME }} --delete
   
       - name: 'Invalidate Cloudfront cache'
         run: aws cloudfront create-invalidation --distribution-id "${{ secrets.DISTRIBUTION_ID_TO_INVALIDATE }}" --paths '/*'
