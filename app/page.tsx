@@ -38,8 +38,8 @@ export default function Home() {
         <h2>Contact</h2>
         <div>
           <p>info@langhavens.com</p>
-          <p><a href=&quot;https://www.linkedin.com/company/langhavens&quot;>LinkedIn</a></p>
-          <p><a href=&quot;https://github.com/langhavens&quot;>GitHub</a></p>
+          <p><a href="https://www.linkedin.com/company/langhavens">LinkedIn</a></p>
+          <p><a href="https://github.com/langhavens">GitHub</a></p>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
