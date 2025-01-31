@@ -33,7 +33,7 @@ export default function Home() {
         <h2>F.A.Q.</h2>
         <div>
           <p>What does Langhavens mean?</p>
-          <p>Langhavens is a concatenation of two surnames with great sentimental value, <i>Lang</i> and <i>Havens</i>. When distintively defined, they roughly translate to "long" and "safe place" respectively.</p>
+          <p>Langhavens is a concatenation of two surnames with great sentimental value, <i>Lang</i> and <i>Havens</i>. When distintively defined, they roughly translate to &quot;long&quot; and &quot;safe place&quot; respectively.</p>
         </div>
         <h2>Contact</h2>
         <div>
