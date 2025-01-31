@@ -1,4 +1,9 @@
-
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 export default function Home() {
   return (
@@ -30,10 +35,16 @@ export default function Home() {
           <p>Black-box Policy Proximal Optimization Algorithm</p>
           <p>A machine learning algorithm for trading with lots of indicators. It&apos;s not expected to be effective, but it is a great opportunity for applied research.</p>
         </div>
-        <h2>F.A.Q.</h2>
         <div>
-          <p>What does Langhavens mean?</p>
-          <p>Langhavens is a concatenation of two surnames with great sentimental value, <i>Lang</i> and <i>Havens</i>. When distintively defined, they roughly translate to &quot;long&quot; and &quot;safe place&quot; respectively.</p>
+          <h2>F.A.Q.</h2>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>What does Langhavens mean?</AccordionTrigger>
+              <AccordionContent>
+              Langhavens is a concatenation of two surnames with great sentimental value, <i>Lang</i> and <i>Havens</i>. When distintively defined, they roughly translate to &quot;long&quot; and &quot;safe place&quot; respectively.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
         <h2>Contact</h2>
         <div>
