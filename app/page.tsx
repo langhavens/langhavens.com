@@ -24,11 +24,11 @@ export default function Home() {
         </div>
         <div>
           <p>Backtest Engine</p>
-          <p>Past performance is no guarantee of future results, but back-testing can provide some indication of an algorithm's forecasted returns. I want to write my own implementation of a backtesting engine because so many algorithmic traders use them, and I want to understand the nitty-gritty details of how they work.</p>
+          <p>Past performance is no guarantee of future results, but back-testing can provide some indication of an algorithm&apos;s forecasted returns. I want to write my own implementation of a backtesting engine because so many algorithmic traders use them, and I want to understand the nitty-gritty details of how they work.</p>
         </div>
         <div>
           <p>Black-box Policy Proximal Optimization Algorithm</p>
-          <p>A machine learning algorithm for trading with lots of indicators. It's not expected to be effective, but it is a great opportunity for applied research.</p>
+          <p>A machine learning algorithm for trading with lots of indicators. It&apos;s not expected to be effective, but it is a great opportunity for applied research.</p>
         </div>
         <h2>F.A.Q.</h2>
         <div>
@@ -38,8 +38,8 @@ export default function Home() {
         <h2>Contact</h2>
         <div>
           <p>info@langhavens.com</p>
-          <p><a href="https://www.linkedin.com/company/langhavens">LinkedIn</a></p>
-          <p><a href="https://github.com/langhavens">GitHub</a></p>
+          <p><a href=&quot;https://www.linkedin.com/company/langhavens&quot;>LinkedIn</a></p>
+          <p><a href=&quot;https://github.com/langhavens&quot;>GitHub</a></p>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
