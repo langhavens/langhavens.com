@@ -16,7 +16,7 @@ import {
 export function ProjectGrid() {
   return (
     <div className="container">
-      <h2 className="text-3xl">In Development</h2>
+      <h2 className="text-3xl">Projects - In Development</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
         <Card>
           <CardHeader>
@@ -45,7 +45,7 @@ export function ProjectGrid() {
           </CardFooter>
         </Card>
       </div>
-      <h2 className="text-3xl">In the Backlog</h2>
+      <h2 className="text-3xl">Projects - In the Backlog</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
         <Card>
           <CardHeader>

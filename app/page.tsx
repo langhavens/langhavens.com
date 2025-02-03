@@ -4,18 +4,29 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-
 // import { NavigationBar } from "@/components/navigation-bar"
 import { Hero } from "@/components/hero"
 import { ProjectGrid } from "@/components/project-grid"
+import PurposeFeatureGrid from "@/components/purpose-feature-grid";
 
 export default function Home() {
   return (
     <div>
+      {/* <NavigationBar /> */}
       <Hero />
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        {/* <NavigationBar /> */}
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+          <div>
+            <h2 className="text-3xl">Purpose</h2>
+            <p className="text-2xl mt-2 mb-2">
+              The only constant is change.<br/>
+              Hitting moving targets requires innovation and continuous learning.<br/>
+              Langhavens is a platform for personal development based on this premise.
+            </p>
+          </div>
+          <div className="justify-center">
+            <PurposeFeatureGrid />
+          </div>
           <ProjectGrid />
           <div>
             <h2>F.A.Q.</h2>
