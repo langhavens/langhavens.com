@@ -1,12 +1,8 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
+
 // import { NavigationBar } from "@/components/navigation-bar"
 import { Hero } from "@/components/hero"
 import { ProjectGrid } from "@/components/project-grid"
+import { Faq } from "@/components/faq"
 import PurposeFeatureGrid from "@/components/purpose-feature-grid";
 
 export default function Home() {
@@ -28,17 +24,7 @@ export default function Home() {
             <PurposeFeatureGrid />
           </div>
           <ProjectGrid />
-          <div>
-            <h2>F.A.Q.</h2>
-            <Accordion type="single" collapsible>
-              <AccordionItem value="item-1">
-                <AccordionTrigger>What does Langhavens mean?</AccordionTrigger>
-                <AccordionContent>
-                Langhavens is a concatenation of two surnames with great sentimental value, <i>Lang</i> and <i>Havens</i>. When distintively defined, they roughly translate to &quot;long&quot; and &quot;safe place&quot; respectively.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-          </div>
+          <Faq />
           <h2>Contact</h2>
           <div>
             <p>info@langhavens.com</p>
