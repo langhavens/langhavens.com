@@ -53,7 +53,7 @@ export function ProjectGrid() {
             <CardDescription>Langhavens custom implementation</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>A securities master translates adjusted prices and standardizes identifiers for securities. Corporate actions like stock splits and symbol name changes create inconsistencies when looking back in time to compare financial data. A securities master keeps track of all these changes and transforms the data into a normalized format with respect to time.</p>
+            <p>Corporate actions like stock splits and symbol name changes create inconsistencies when looking back in time to compare financial data. A securities master keeps track of all these changes and transforms the data into a normalized format with respect to time.</p>
           </CardContent>
           <CardFooter>
             <Badge className="mr-1">Quantitative Research Tool</Badge>
@@ -65,7 +65,7 @@ export function ProjectGrid() {
             <CardDescription>Langhavens custom implementation</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>Past performance is no guarantee of future results, but back-testing attempts to forecast an algorithm&apos;s returns using historical data. I want to write my own implementation of a backtesting engine because so many algorithmic traders use them, and I want to understand the nitty-gritty details of how they work.</p>
+            <p>Past performance is no guarantee of future results, but back-tests attempt to forecast an algorithm&apos;s future returns using historical data. The backtest engine provides the environment for these tests to run.</p>
           </CardContent>
           <CardFooter>
             <Badge className="mr-1">Quantitative Research Tool</Badge>
@@ -77,7 +77,7 @@ export function ProjectGrid() {
             <CardDescription>A hands-on learning experiment</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>A machine learning algorithm for trading with lots of indicators. It&apos;s not expected to be effective, but it is a great opportunity for applied research.</p>
+            <p>A learning experiment to predict future price candles using machine learning.</p>
           </CardContent>
           <CardFooter>
             <Badge className="mr-1">Trading</Badge>
