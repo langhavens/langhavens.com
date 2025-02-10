@@ -52,7 +52,7 @@ export function ProjectGrid() {
         <Card>
           <CardHeader>
             <CardTitle>Securities Master</CardTitle>
-            <CardDescription>Langhavens custom implementation</CardDescription>
+            <CardDescription>Historical accuracy</CardDescription>
           </CardHeader>
           <CardContent>
             <p>Corporate actions like stock splits and symbol name changes create inconsistencies when looking back in time to compare financial data. A securities master keeps track of all these changes and transforms the data into a normalized format with respect to time.</p>
@@ -64,7 +64,7 @@ export function ProjectGrid() {
         <Card>
           <CardHeader>
             <CardTitle>Backtest Engine</CardTitle>
-            <CardDescription>Langhavens custom implementation</CardDescription>
+            <CardDescription>Hoping history repeats</CardDescription>
           </CardHeader>
           <CardContent>
             <p>Past performance is no guarantee of future results, but back-tests attempt to forecast an algorithm&apos;s future returns using historical data. The backtest engine provides the environment for these tests to run.</p>
@@ -75,11 +75,11 @@ export function ProjectGrid() {
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle>Black-box Policy Proximal Optimization Algorithm</CardTitle>
+            <CardTitle>Black-box Machine Learning Algorithm</CardTitle>
             <CardDescription>A hands-on learning experiment</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>A learning experiment to predict future price candles using machine learning.</p>
+            <p>Our pilot algorithm and a learning experiment to predict future price candles using machine learning.</p>
           </CardContent>
           <CardFooter>
             <Badge className="mr-1">Trading</Badge>
