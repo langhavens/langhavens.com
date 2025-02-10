@@ -35,10 +35,9 @@ export function Faq() {
         </Accordion>
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
-            <AccordionTrigger>Why deploy everything on AWS and not another cloud provider?</AccordionTrigger>
+            <AccordionTrigger>How are you deciding what technologies, tools, etc. to use?</AccordionTrigger>
             <AccordionContent>
-              For now, we want to master concepts inside of AWS because of its popularity. Even if another cloud provider has better pricing or more effective services for a given use-case, we are using 
-              AWS to focus our learning on AWS.
+              We are picking tools based on what we are interested in learning more about. The most optimal tool might not always be chosen.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

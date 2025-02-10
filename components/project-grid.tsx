@@ -2,6 +2,8 @@
 
 import * as React from "react"
 
+import Link from "next/link"
+
 import { Badge } from "@/components/ui/badge"
 import {
   Card,
@@ -21,7 +23,7 @@ export function ProjectGrid() {
         <Card>
           <CardHeader>
             <CardTitle>Schwab API Java Client SDK</CardTitle>
-            <CardDescription>Public GitHub repository coming soon</CardDescription>
+            <CardDescription>Check it out on <u><Link href="https://github.com/langhavens/schwab-api-sdk-java">GitHub</Link></u></CardDescription>
           </CardHeader>
           <CardContent>
             <p>An open-source Java client for the Schwab Market Data developer API. This implementation features a reactive, non-blocking client as well as a traditional, blocking client.</p>
